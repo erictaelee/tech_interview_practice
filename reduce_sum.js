@@ -7,4 +7,26 @@
 
 // Explanation: (1 + 2 + 3 + 4) = 10
 
-array
+// var array = [1, 2, 3, 4];
+// var arraySum = 0;
+// var i = 0;
+// while (i < array.length) {
+//   arraySum = arraySum + array[i];
+//   i++;
+// }
+// console.log(arraySum);
+
+
+
+function arraySum(array) {
+  var arraySum = 0;
+  var i = 0;
+  while (i < array.length) {
+    arraySum = arraySum + array[i];
+    i++;
+  };
+  return arraySum;
+}
+
+
+console.log(arraySum([1, 2, 3, 4]));
