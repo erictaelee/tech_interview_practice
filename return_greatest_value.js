@@ -27,3 +27,5 @@ while (i < array.length) {
   i++;
 }
 console.log(greatestNumber)
+
+
