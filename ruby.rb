@@ -2,7 +2,6 @@
 # Input: [5, 17, -4, 20, 12]
 # Output: 20
 
-
 array = [5, 17, -4, 20, 12]
 greatest = array[0]                 
 i = 0                           
