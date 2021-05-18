@@ -18,13 +18,13 @@ function doubleArray(array) {
 console.log(doubleArray([4, 2, 5, 99, -4]));
 
 
-//for loop
+//forEach loop
 
-// function doubleArray(array) {
-//   var i = 0;
-//   var doubleArray = [];
-//   forEach.doubleArray(array){
-
-//   }
-// }
-// console.log(doubleArray([4, 2, 5, 99, -4]));
+function doubleArray(array) {
+  var doubleArray = [];
+  array.forEach(function (array) {
+    doubleArray.push(array * 2);
+  });
+  return doubleArray;
+}
+console.log(doubleArray([4, 2, 5, 99, -4]));
