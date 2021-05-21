@@ -16,13 +16,16 @@ console.log(reverse("What's the weather like today"))
 
 
 
-// var string = "What's the weather like today";
-// var reverse = "";
-// var i = string.length - 1;
+//split the string 
+//reverse each string
+//push to a new array
+//join the array
 
-// while (i >= 0) {
-//   reverse = reverse + string[i]
-//   i--;
+
+// function reverse(string) {
+//   var reverse = ""
+//   var split = string.split(" ")
+
+// return reverse;
 // }
-
-// console.log(reverse);
+// console.log(reverse("What's the weather like today"))
