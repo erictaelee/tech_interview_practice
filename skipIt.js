@@ -10,13 +10,13 @@
 
 
 //create a new array
-//index at array[0]
+//index at 0
 //increment index by array[i]
 
 
 function skip(array) {
   let skipArray = [];
-  for (i = 0; i < array.length; i = i + array[i]) {
+  for (i = 0; i < array.length; i += array[i]) {
     skipArray.push(array[i]);
   }
   return skipArray;
