@@ -16,7 +16,7 @@
 
 function skip(array) {
   let skipArray = [];
-  for (i = array[0]; i < array.length; i += array[i]) {
+  for (i = 0; i < array.length; i = i + array[i]) {
     skipArray.push(array[i]);
   }
   return skipArray;
