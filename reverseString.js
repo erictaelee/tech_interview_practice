@@ -14,13 +14,28 @@
 //return reverse.join()
 
 
+// function reverse(string) {
+//   let split = string.split("")
+//   let reverseArray = [];
+//   for (i = string.length - 1; i >= 0; i--) {
+//     reverseArray.push(string[i]);
+//   }
+
+//   return reverseArray.join('');
+// }
+// console.log(reverse("abcde"));
+
+
+//without splitting
+//set reverseArray to empty string
+//strings have an index. 
+
 function reverse(string) {
-  let split = string.split("")
-  let reverseArray = [];
+  let reverseArray = "";
   for (i = string.length - 1; i >= 0; i--) {
-    reverseArray.push(string[i]);
+    reverseArray += string[i];
   }
 
-  return reverseArray.join('');
+  return reverseArray;
 }
 console.log(reverse("abcde"));
