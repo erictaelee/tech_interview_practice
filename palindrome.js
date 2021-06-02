@@ -16,3 +16,14 @@
 //return true
 //else false
 
+
+
+function palindrome(string) {
+  let reversedString = "";
+  for (let i = 0; i < string.length; i++) {
+    reversedString = string[i] + reversedString;
+  }
+  return reversedString === string;
+}
+console.log(palindrome("hello"))
+console.log(palindrome("racecar"))
