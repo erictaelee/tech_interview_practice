@@ -14,8 +14,14 @@
 function fizzBuzz(integer) {
   let currentNumber = 1;
   while (currentNumber <= integer) {
-    if (currentNumber % 3 == 0) {
+    if (currentNumber % 15 == 0) {
+      console.log("Fizzbuzz");
+    }
+    else if (currentNumber % 3 == 0) {
       console.log("Fizz");
+    }
+    else if (currentNumber % 5 == 0) {
+      console.log("Buzz");
     }
     else {
       console.log(currentNumber);
@@ -25,4 +31,4 @@ function fizzBuzz(integer) {
   }
   return currentNumber;
 }
-(fizzBuzz(3));
+(fizzBuzz(16));
