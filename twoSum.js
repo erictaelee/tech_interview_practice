@@ -41,5 +41,6 @@ function twoSum(array) {
   })
   return false;
 }
-console.log(twoSum[[2, 5, 3, 1, 0, 7, 11]])
-console.log(twoSum[[2, 5, 3, 1, 0, 11]])
+console.log(twoSum[2, 5, 3, 1, 0, 7, 11]);
+console.log(twoSum[2, 5, 3, 1, 0, 11]);
+
