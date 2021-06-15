@@ -16,6 +16,8 @@ current_number = 1
       p "FIZZ"
     elsif current_number % 5 == 0
       p "BUZZ"
+    else
+      p current_number
     end
     current_number += 1
   end
