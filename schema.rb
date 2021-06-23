@@ -3,6 +3,7 @@
 # You're tasked with creating their internal application that keeps track of purhcases and inventory.
 
 1. Which clohtes were sent in each package to each customer.
+2. Add to the schema so we can track which clothes each customer kept, and which clothes were returned. 
 
 Users           Clohtes-In-A-Box            Boxes                 Clothes
 -------         --------                   -------                --------
